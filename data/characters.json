@@ -1,0 +1,58 @@
+{
+  "main": [
+    {
+      "name": "The Lamb",
+      "photo": "../images/Lamb.png"
+    },
+    {
+      "name": "The Goat",
+      "photo": "../images/The_Goat.png"
+    }
+  ],
+  "the_bishops": [
+    {
+      "name": "Leshy: Bishop of Chaos",
+      "photo": "../images/Leshy.png"
+    },
+    {
+      "name": "Heket: Bishop of Famine",
+      "photo": "../images/Heket.png"
+    },
+    {
+      "name": "Kallamar: Bishop of Pestilence",
+      "photo": "../images/Kallamar.png"
+    },
+    {
+      "name": "Shamura: Bishop of Knowledge and War",
+      "photo": "../images/Shamura.png"
+    },
+    {
+      "name": "Narinder: Bishop of Death",
+      "photo": "../images/The-One-Who-Waits-Narinder-Chained.png"
+    }
+  ],
+  "guardians": [
+    {
+      "name": "Aym",
+      "photo": "../images/Aym.png"
+    },
+    {
+      "name": "Baal",
+      "photo": "../images/Baal.png"
+    }
+  ],
+  "knucklebone_players": [
+    {
+      "name": "Ratau",
+      "photo": "../images/Ratau.png"
+    },
+    {
+      "name": "Flinky",
+      "photo": "../images/Flinky.png"
+    },
+    {
+      "name": "Shrumy",
+      "photo": "../images/Shrumy.png"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "sword": [
+    {
+      "id": 1,
+      "name": "Crusader's Blade",
+      "photo": "../images/weapons/sword/Crusader's_Blade.png",
+      "quote": "Stalwart companion to the wandering warrior.",
+      "description": "A well balanced blade dealing moderate damage",
+      "unlock": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bane Sword",
+      "photo": "../images/weapons/sword/Bane_Sword.png",
+      "quote": "Coated in the bile of a beast, long forgotten.",
+      "description": "Chance of poisoning enemies when attacking.",
+      "unlock": "Bane Weapons"
+    },
+    {
+      "id": 3,
+      "name": "Necromantic Sword",
+      "photo": "../images/weapons/sword/Necromantic_Sword.png",
+      "quote": "Death's own blade.",
+      "description": "When slaying a foe summon a ghost that will attack nearby enemies.",
+      "unlock": "Necromantic Weapons"
+    },
+    {
+      "id": 4,
+      "name": "Vampiric Sword",
+      "photo": "../images/weapons/sword/Vampiric_Sword.png",
+      "quote": "Vitality to those bold enough to take it.",
+      "description": "Chance to heal the wielder using the life force of a slain foe.",
+      "unlock": "Vampiric Weapons"
+    },
+    {
+      "id": 5,
+      "name": "Merciless Sword",
+      "photo": "../images/weapons/sword/Merciless_Sword.png",
+      "quote": "Grant no mercy, take no chances.",
+      "description": "Chance to deal a Critical Hit when attacking enemies.",
+      "unlock": "Merciless Weapons"
+    },
+    {
+      "id": 6,
+      "name": "Zealous Sword",
+      "photo": "../images/weapons/sword/Zealous_Sword.png",
+      "quote": "The blade of the great Fanatic.",
+      "description": "Collected fervor will also increase the divine inspiration bar.",
+      "unlock": "Zealous Weapons"
+    },
+    {
+      "id": 7,
+      "name": "Godly Sword",
+      "photo": "../images/weapons/sword/Godly_Sword.png",
+      "quote": "Once used to draw Godly blood...",
+      "description": "Deal significantly more damage than mortal weapons.",
+      "unlock": "Godly Weapons"
+    }
+  ],
+  "axes": [
+    {
+      "id": 1,
+      "name": "Apostate's Cleaver",
+      "photo": "../images/weapons/axe/Apostate's_Cleaver.png",
+      "quote": "A mighty tool of unstoppable brutality.",
+      "description": "Swing with intent.",
+      "unlock": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bane Axe",
+      "photo": "../images/weapons/axe/Bane_Axe.png",
+      "quote": "Once struck by the toxins, one begs for the blade.",
+      "description": "Chance of poisoning enemies when attacking.",
+      "unlock": "Bane Weapons"
+    },
+    {
+      "id": 3,
+      "name": "Necromantic Axe",
+      "photo": "../images/weapons/axe/Necromantic_Axe.png",
+      "quote": "Severed heads still may talk.",
+      "description": "When slaying a foe summon a ghost that will attack nearby enemies.",
+      "unlock": "Necromantic Weapons"
+    },
+    {
+      "id": 4,
+      "name": "Vampiric Axe",
+      "photo": "../images/weapons/axe/Vampiric_Axe.png",
+      "quote": "Consumer of the blood it spills",
+      "description": "Chance to heal the wielder using the life force of a slain foe.",
+      "unlock": "Vampiric Weapons"
+    },
+    {
+      "id": 5,
+      "name": "Merciless Axe",
+      "photo": "../images/weapons/axe/Merciless_Axe.png",
+      "quote": "Once borne by the executioners of old.",
+      "description": "Chance to deal a Critical Hit when attacking enemies.",
+      "unlock": "Merciless Weapons"
+    },
+    {
+      "id": 6,
+      "name": "Zealous Axe",
+      "photo": "../images/weapons/axe/Zealous_Axe.png",
+      "quote": "Used by the great Fanatic to execute heretics.",
+      "description": "Collected fervor will also increase the divine inspiration bar.",
+      "unlock": "Zealous Weapons"
+    },
+    {
+      "id": 7,
+      "name": "Godly Axe",
+      "photo": "../images/weapons/axe/Godly_Axe.png",
+      "quote": "The blade that severed the Lands of the Old Faith from the world.",
+      "description": "Deal significantly more damage than mortal weapons.",
+      "unlock": "Godly Weapons"
+    }
+  ],
+  "dagger": [
+    {
+      "id": 1,
+      "name": "Traitor's Razor",
+      "photo": "../images/weapons/dagger/Traitor's_Razor.png",
+      "quote": "Never given, only taken.",
+      "description": "A fast blade signed for many cuts, low damage but lightning quick.",
+      "unlock": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bane Dagger",
+      "photo": "../images/weapons/dagger/Bane_Dagger.png",
+      "quote": "Signature weapon of the jealous lover.",
+      "description": "Chance of poisoning enemies when attacking.",
+      "unlock": "Bane Weapons"
+    },
+    {
+      "id": 3,
+      "name": "Necromantic Dagger",
+      "photo": "../images/weapons/dagger/Necromantic_Dagger.png",
+      "quote": "Eerily similar to the canine of some fierce beast...",
+      "description": "When slaying a foe summon a ghost that will attack nearby enemies.",
+      "unlock": "Necromantic Weapons"
+    },
+    {
+      "id": 4,
+      "name": "Vampiric Dagger",
+      "photo": "../images/weapons/dagger/Vampiric_Dagger.png",
+      "quote": "Only the Gods of Death may cut souls free.",
+      "description": "Chance to heal the wielder using the life force of a slain foe.",
+      "unlock": "Vampiric Weapons"
+    },
+    {
+      "id": 5,
+      "name": "Merciless Dagger",
+      "photo": "../images/weapons/dagger/Merciless_Dagger.png",
+      "quote": "Once borne by the executioners of old.",
+      "description": "Used by the Fanatic to give offerings of blood",
+      "unlock": "Merciless Weapons"
+    },
+    {
+      "id": 6,
+      "name": "Zealous Dagger",
+      "photo": "../images/weapons/dagger/Zealous_Dagger.png",
+      "quote": "Piercer of hearts.",
+      "description": "Collected fervor will also increase the divine inspiration bar.",
+      "unlock": "Zealous Weapons"
+    },
+    {
+      "id": 7,
+      "name": "Godly Dagger",
+      "photo": "../images/weapons/dagger/Godly_Dagger.png",
+      "quote": "Stolen from the tomb of one of the Old Gods.",
+      "description": "Deal significantly more damage than mortal weapons.",
+      "unlock": "Godly Weapons"
+    }
+  ],
+  "gauntlets": [
+    {
+      "id": 1,
+      "name": "Tempest's Gauntlets",
+      "photo": "../images/weapons/gauntlets/Tempest's_Gauntlets.png",
+      "quote": "An iron fist from which none can escape.",
+      "description": "A set of deadly spiked gloves. Weak at first, but devastating on a complete combo.",
+      "unlock": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bane Gauntlets",
+      "photo": "../images/weapons/gauntlets/Bane_Gauntlets.png",
+      "quote": "A venomous touch, however gentle.",
+      "description": "Chance of poisoning enemies when attacking.",
+      "unlock": "Bane Weapons"
+    },
+    {
+      "id": 3,
+      "name": "Necromantic Gauntlets",
+      "photo": "../images/weapons/gauntlets/Necromantic_Gauntlets.png",
+      "quote": "Once worn to gather the souls of the departed..",
+      "description": "When slaying a foe summon a ghost that will attack nearby enemies.",
+      "unlock": "Necromantic Weapons"
+    },
+    {
+      "id": 4,
+      "name": "Vampiric Gauntlets",
+      "photo": "../images/weapons/gauntlets/Vampiric_Gauntlets.png",
+      "quote": "Made for drawing out the fire of life.",
+      "description": "Chance to heal the wielder using the life force of a slain foe.",
+      "unlock": "Vampiric Weapons"
+    },
+    {
+      "id": 5,
+      "name": "Merciless Gauntlets",
+      "photo": "../images/weapons/gauntlets/Merciless_Gauntlets.png",
+      "quote": "Imbued with the restless spirit of a fallen crusader.",
+      "description": "Used by the Fanatic to give offerings of blood",
+      "unlock": "Merciless Weapons"
+    },
+    {
+      "id": 6,
+      "name": "Zealous Gauntlets",
+      "photo": "../images/weapons/gauntlets/Zealous_Gauntlets.png",
+      "quote": "Protects against doubt.",
+      "description": "Collected fervor will also increase the divine inspiration bar.",
+      "unlock": "Zealous Weapons"
+    },
+    {
+      "id": 7,
+      "name": "Godly Gauntlets",
+      "photo": "../images/weapons/gauntlets/Godly_Gauntlets.png",
+      "quote": "The last remnant of divine armour, long lost.",
+      "description": "Deal significantly more damage than mortal weapons.",
+      "unlock": "Godly Weapons"
+    }
+  ],
+  "hammers": [
+    {
+      "id": 1,
+      "name": "Warmaker's Hammer",
+      "photo": "../images/weapons/hammer/Warmaker's_Hammer.png",
+      "quote": "Splinterer of skulls.",
+      "description": "Slow to fall, yet calamitous upon landing.",
+      "unlock": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bane Hammer",
+      "photo": "../images/weapons/hammer/Bane_Hammer.png",
+      "quote": "Forged with ill-intent and evil spirits.",
+      "description": "Chance of poisoning enemies when attacking.",
+      "unlock": "Bane Weapons"
+    },
+    {
+      "id": 3,
+      "name": "Necromantic Hammer",
+      "photo": "../images/weapons/hammer/Necromantic_Hammer.png",
+      "quote": "Used in ancient rituals to grind bones to dust.",
+      "description": "When slaying a foe summon a ghost that will attack nearby enemies.",
+      "unlock": "Necromantic Weapons"
+    },
+    {
+      "id": 4,
+      "name": "Vampiric Hammer",
+      "photo": "../images/weapons/hammer/Vampiric_Hammer.png",
+      "quote": "Driver of stakes.",
+      "description": "Chance to heal the wielder using the life force of a slain foe.",
+      "unlock": "Vampiric Weapons"
+    },
+    {
+      "id": 5,
+      "name": "Merciless Hammer",
+      "photo": "../images/weapons/hammer/Merciless_Hammer.png",
+      "quote": "What remains once the hammer has struck?",
+      "description": "Used by the Fanatic to give offerings of blood",
+      "unlock": "Merciless Weapons"
+    },
+    {
+      "id": 6,
+      "name": "Zealous Hammer",
+      "photo": "../images/weapons/hammer/Zealous_Hammer.png",
+      "quote": "Gavel of judgement, strike true.",
+      "description": "Collected fervor will also increase the divine inspiration bar.",
+      "unlock": "Zealous Weapons"
+    },
+    {
+      "id": 7,
+      "name": "Godly Hammer",
+      "photo": "../images/weapons/hammer/Godly_Hammer.png",
+      "quote": "Shaped these lands to the desires of their Gods.",
+      "description": "Deal significantly more damage than mortal weapons.",
+      "unlock": "Godly Weapons"
+    }
+  ],
+  "blunderbuss": [
+    {
+      "id": 1,
+      "name": "Mayhem's Cannon",
+      "photo": "../images/weapons/blunderbuss/Blunderbuss.png",
+      "quote": "It kicks back with the smell of burning iron.",
+      "description": "A vicious ranged weapon.",
+      "unlock": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bane Blunderbuss",
+      "photo": "../images/weapons/blunderbuss/Bane_Blunderbuss.png",
+      "quote": "Bullets dipped in something vile...",
+      "description": "Chance of poisoning enemies when attacking.",
+      "unlock": "Bane Weapons"
+    },
+    {
+      "id": 3,
+      "name": "Necromantic Blunderbuss",
+      "photo": "../images/weapons/blunderbuss/Necromantic_Blunderbuss.png",
+      "quote": "Deliver death twice for good fortune.",
+      "description": "When slaying a foe summon a ghost that will attack nearby enemies.",
+      "unlock": "Necromantic Weapons"
+    },
+    {
+      "id": 4,
+      "name": "Vampiric Blunderbuss",
+      "photo": "../images/weapons/blunderbuss/Vampiric_Blunderbuss.png",
+      "quote": "Fetch a life to be consumed.",
+      "description": "Chance to heal the wielder using the life force of a slain foe.",
+      "unlock": "Vampiric Weapons"
+    },
+    {
+      "id": 5,
+      "name": "Merciless Blunderbuss",
+      "photo": "../images/weapons/blunderbuss/Merciless_Blunderbuss.png",
+      "quote": "To be fired without regret.",
+      "description": "Used by the Fanatic to give offerings of blood",
+      "unlock": "Merciless Weapons"
+    },
+    {
+      "id": 6,
+      "name": "Zealous Blunderbuss",
+      "photo": "../images/weapons/blunderbuss/Zealous_Blunderbuss.png",
+      "quote": "Aimed with a righteous eye.",
+      "description": "Collected fervor will also increase the divine inspiration bar.",
+      "unlock": "Zealous Weapons"
+    },
+    {
+      "id": 7,
+      "name": "Godly Blunderbuss",
+      "photo": "../images/weapons/blunderbuss/Godly_Blunderbuss.png",
+      "quote": "A cruel invention by crueller Gods.",
+      "description": "Deal significantly more damage than mortal weapons.",
+      "unlock": "Godly Weapons"
+    }
+  ]
+}

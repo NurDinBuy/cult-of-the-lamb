@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/core.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+                        <img src="images/logo-mm.png">
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="pages/home_works.html">Персонажи</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/lessons.html">Локации</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/characters.html">Карточки</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/weapons.html">Оружия</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/music.html">Музыка</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Присоединиться</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_block">
+        <div class="container">
+            <video src="video/cult_of_the_lamb_bgVideo.mp4" muted autoplay playsinline loop class="video"></video>
+            <div class="inner_main">
+
+                <div class="inner_main_logo">
+                    <img src="images/logo_cult_of_the_lamb.webp" alt="" class="logo_cult">
+                    <img src="images/plush.png" class="cult_plush">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cult_desc">
+        <div class="container">
+            <div class="cult_card">
+                <img src="images/image.png">
+                <div class="inner_cult_desc">
+                    <div class="cult_video_trailer">
+                        <iframe width="803" height="465" src="https://www.youtube.com/embed/XlfGvPKPEiE?si=iGXMaZD_Z-WtVH_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="inner_main_btn">
+                        <div class="inner_main_btn_info">
+                            <p><strong id="js-color">Cult of the Lamb</strong></p>
+                            <div class="colors-buttons">
+                                <button class="btn btn-color"></button>
+                                <button class="btn btn-color"></button>
+                                <button class="btn btn-color"></button>
+                                <button class="btn btn-color"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider_block">
+        <div class="container">
+            <div class="inner_slider">
+            <video src="video/Cult-of-the-Lamb-Unholy-Alliance-Launch-Trailer.mp4" muted autoplay playsinline loop class="video-cult"></video>
+
+                <div class="slider">
+                    <div class="slide active_slide">
+                        <div class="slide_card">
+                            <div class="slide_info_back">
+                                <div class="slide_info">
+                                    <h3>Создайте свой культ</h3>
+                                    <p>Собирайте и используйте ресурсы для строительства новых сооружений, проводите темные ритуалы, чтобы умиротворить богов, и читайте проповеди, чтобы укрепить веру
+                                        своей паствы.</p>
+                                </div>
+                            </div>
+                            <div class="slide_photo">
+                                <img src="images/build_your_flock.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide_card">
+                            <div class="slide_info_back">
+                                <div class="slide_info">
+                                    <h3>Уничтожайте неверующих</h3>
+                                    <p>Исследуйте обширный мир со случайной генерацией, сражайтесь с полчищами врагов и побеждайте лидеров конкурирующих культов, чтобы поглотить их силу
+                                    и утвердить господство своего культа.</p>
+                                </div>
+                            </div>
+                            <div class="slide_photo">
+                                <img src="images/destroy_the_unbel.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide_card">
+                            <div class="slide_info_back">
+                                <div class="slide_info">
+                                    <h3>Распространите свое слово</h3>
+                                    <p>Обучите свою паству и отправляйтесь на поиски секретов четырех таинственных регионов. Очищайте неверующих, несите просвещение и проводите мистические ритуалы, чтобы стать могущественным богом-ягненком.</p>
+                                </div>
+                            </div>
+                            <div class="slide_photo">
+                                <img src="images/spread_your_word.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="btn-slide" id="prev"><</button>
+                    <button class="btn-slide" id="next">></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    <div class="botlle">-->
+<!--        <div class="container">-->
+<!--            <div class="bottle_inner">-->
+<!--                <a href="pages/monster.html">-->
+<!--                    <div class="bowl">-->
+<!--                        <div class="shadow"></div>-->
+<!--                        <div class="liquid"></div>-->
+
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="block_video">
+        <div class="container">
+            <div class="video_info">
+                <div class="video_info_absolute">
+                    <h3>Cult of the Lamb - Все анимационные трейлеры</h3>
+                    <div class="inner_block_video">
+                        <iframe width="1185px" height="580px" src="https://www.youtube.com/embed/U8Mo1tHKYX0?si=-yIAYggzOOrHpaKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="inner_footer">
+                <div class="inner_footer_logo">
+                    <img src="./images/logo/t.svg" alt="">
+                </div>
+                <div class="inner_footer_info">
+                    <a href="https://legal.devolverdigital.com/terms">TERMS & CONDITIONS</a>
+                    <a href="https://legal.devolverdigital.com/privacy">PRIVACY POLICY</a>
+                    <a href="https://massivemonster.co/"><img src="/images/logo-mm.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Оставьте заявку на присоединение к нашему культу</div>
+                <input
+                        required
+                        placeholder="Введите ваше имя"
+                        name="name"
+                        type="text"
+                        class="modal_input"
+                >
+                <input
+                        required
+                        placeholder="Введите ваш номер телефона"
+                        name="phone"
+                        type="text"
+                        class="modal_input"
+                >
+                <button class="btn btn_dark btn_min">Оставить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/modal.js"></script>
+</html>
