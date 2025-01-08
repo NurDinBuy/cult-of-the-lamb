@@ -1,0 +1,103 @@
+.weapons_block{
+    width: 100%;
+    height: 100%;
+    background: #1F1819;
+    position: relative;
+    padding: 100px 0;
+}
+
+
+.weapons_block_card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.video{
+    position: absolute;
+    filter: blur(12px);
+    inset: 0;
+    width: 101%;
+    left: -1%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.weapons_inner_block{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 750px;
+}
+.table-header, .table-row {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+
+}
+.table-header {
+    width: 1220px;
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid var(--beige);
+    gap: 5px;
+    padding: 30px;
+    background-color: #B52A2E;
+    font-weight: 700;
+}
+.table-cell {
+    padding: 20px;
+    border-left: 1px solid var(--beige);
+    height: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    color: var(--beige);
+    text-align: center;
+}
+
+.table-cell img{
+    width: 80px;
+    height: 85px;
+}
+
+.table-row {
+    width: 1220px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 30px;
+    background-color: #282E35;
+}
+.weapons_type{
+    border-left: 1px solid var(--beige);
+    background: #B52A2E;
+    flex: 1;
+    padding: 20px;
+    color: #1F1819;
+    text-align: center;
+}
+
+.table-cell_info{
+    border-left: 1px solid var(--beige);
+    background: #282E35;
+    flex: 1;
+    color: var(--beige);
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
